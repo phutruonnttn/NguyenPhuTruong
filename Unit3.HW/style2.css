@@ -1,0 +1,43 @@
+#wrapper {
+	height: 100px;
+	width: 710px;
+	margin: auto;
+	background : linear-gradient(to bottom,rgba(211,211,211,0.3),rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(211,211,211,0.3));
+	background : -moz-linear-gradient(to bottom,rgba(211,211,211,0.3),rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(211,211,211,0.3));
+	background : -webkit-linear-gradient(to bottom,rgba(211,211,211,0.3),rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(211,211,211,0.3));
+	background : -o-linear-gradient(to bottom,rgba(211,211,211,0.3),rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(255,255,255,0.1), rgba(211,211,211,0.3));
+}
+#wrapper .chu_phai{
+	font-family: arial;
+	font-size: 12px;
+}
+#wrapper .icon2{
+	margin-bottom: 20px; 
+	float: left; 
+	float: top;
+}
+#wrapper .icon1, .icon3{
+	float: left; 
+	float: top;
+}
+#wrapper .icon3:hover{
+	cursor: pointer;
+}
+#wrapper .line2{
+	margin-top: 10px;
+	margin-left: 57px;
+	font-size: 12px;
+	font-family: arial; 
+	font-weight: bold;
+}
+#wrapper .line2:hover, .line1:hover{
+	color: #26b3e2;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#wrapper .line1{
+	margin-top: 5px; 
+	margin-left: 31px;
+	font-size: 12px; 
+	font-family: arial;
+}

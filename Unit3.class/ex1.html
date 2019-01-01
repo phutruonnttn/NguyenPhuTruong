@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- <style type="text/css">
+		h1{
+			color: red;
+		}
+	</style> --> 
+	<!-- <link rel="stylesheet" type="text/css" href="../1.css"> -->
+	<style type="text/css">
+		* {
+			font-family: Tahoma, "Times New Roman";
+			font-style: italic;
+			text-align: justify;
+		}
+		#zent{
+			color: blue ;
+		}
+		.zent{
+			color: green ;
+		}
+		.true{
+			color: orange ;
+		}
+		/* #parent>.text{ */
+		#parent .text{
+			color: red;
+		}
+		#parent li:first-child, #parent .text1{
+			color: green;
+		}
+		h1[frontend="111"]{
+			color: grey;
+		}
+		h1:hover{
+			color: yellow;
+		}
+		a:hover{
+			color: red;
+			background-color: transparent; 
+		}
+		body {
+			background-image: url('../images/anh1.png');
+			/* background-repeat: repeat-y; */
+			background-repeat: no-repeat;
+			/* background-size: cover; */
+			background-attachment: fixed;
+			background-position: top right;
+		}
+	</style>
+</head>
+<body style="height: 1000px">
+	<h1 style="color: blue"> hello </h1>
+	<h1 id="zent" class="zent"> Hello 1</h1>
+	<h1 class="zent true"> Hello 1</h1>
+
+	<div id="parent">
+		<h1>Hello1</h1>
+		<h1 frontend="111">Hello12222</h1>
+		<p class="text">Hello2</p>
+		<p class="text1">Hello2</p>
+
+		<ul>
+			<li>HN</li>
+			<li>HCM</li>
+		</ul>
+		<p class="text"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci labore expedita, nemo eos rem, temporibus. Dignissimos incidunt, quibusdam nihil autem libero. Aut eligendi earum quas esse veniam similique magni.</span><span>Rem esse inventore repellendus id adipisci sed blanditiis ex facere sunt placeat tempora labore corporis consequuntur voluptatum delectus repellat unde fugit, illo nisi animi assumenda! Tenetur corporis, labore at eum!</span></p>
+		<div>
+			<p class="text">Lorem ipsum dolor sit amet.</p>
+		</div>
+	</div>
+
+	<a href="https://zent.edu.vn/classrooms/WF23/units/3/theories">Click me</a>
+</body>
+</html>

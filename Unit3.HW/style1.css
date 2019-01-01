@@ -1,0 +1,62 @@
+#wrapper .box{
+	height: 142px;
+	width: 116px;
+	border: 1px solid #babfc6;
+	float: left;
+	margin-left: 10px;
+}
+#wrapper .box:hover{
+	cursor: pointer;
+	border: 1px solid #ff5d00;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+	-moz-box-shadow:0px 0px 6px rgba(0, 0, 0, 10);
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+}
+#wrapper .box_last:hover{
+	cursor: pointer;
+	border: 1px solid #ff5d00;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+	-moz-box-shadow:0px 0px 6px rgba(0, 0, 0, 10);
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+}
+#wrapper .box_last{
+	height: 142px;
+	width: 116px;
+	border: 1px solid #babfc6;
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#wrapper .image{
+	margin-top: 5px;
+}
+#wrapper {
+	border: 1px solid white;
+	margin: auto;
+	width: 780px;
+	height: 150px;
+	overflow:auto;
+	border-top-color: #c4c8ce;
+}
+#wrapper .name{
+	color: #ff8200;
+	font-size: 13px;
+	font-family: arial;
+	margin-bottom: 8px; 
+	margin-top: 10px
+}
+#wrapper .name:hover{
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#wrapper .money:hover{
+	color: blue;
+	cursor: initial;
+}
+#wrapper .money{
+	color: #ff0004;
+	font-size: 13px;
+	font-family: arial;
+	font-weight: bold;
+}

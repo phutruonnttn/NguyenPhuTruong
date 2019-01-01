@@ -1,0 +1,110 @@
+#wrapper {
+	background-color: white;margin: auto;height: auto; width: 800px; border: 4px solid white;
+}
+#menu_chinh .item1{
+	margin-top: 4px; margin-bottom: 4px; color: #f77700; line-height: 22px;height: 22px; padding-left: 10px; padding-right: 10px;	float: left; 
+	border-right: 2px groove #5e62696b; display: inline-block; font-family: arial; font-size: 12px; font-weight: bold;
+}
+#menu_chinh .item1:hover{
+	color: white; cursor: pointer;
+}
+#anh_Topic{
+	background-image: url(images/123.jpg); background-size: 100%; width: 800px; height: 350px;
+}
+#menu_chinh{
+	width: 800px; height: 30px; background-color: #3b3e42;
+}
+#wrapper .thanh_trang_tri{
+	width: 800px; height: 2px; background-color: #f77700;
+}
+#thanh_ngan_cach{
+	width: 797px; height: auto;
+}
+#big_box_trai{
+	width: 148px; height: auto; float: left;
+}
+.box_trai{
+	width: 148px; height: auto; border: 1px solid gray;
+}
+.box_trai .item{
+	width: 142px; height: 26px; margin-left: 6px; line-height: 26px; font-size: 12px; font-family: arial;
+}
+.box_trai .wrapper_item1:hover{
+	background-color: #ff7300; cursor: pointer; color: white;
+}
+.box_trai .wrapper_item2{
+	height: 36px; width: 148px; padding-top: 1px;
+}
+.box_trai .wrapper_item2:hover{
+	background-color: #ff7300; cursor: pointer; color: white;
+}
+.box_trai .item_2line{
+	margin-top: 4px;width: 142px; height: 34px; margin-left: 6px; line-height: 15px; font-size: 12px; font-family: arial;
+}
+.box_trai .tieu_de{
+	width: 148px; height: 26px; background-image: url(images/menu_bar.gif); text-align: center; color: white; line-height: 26px; font-size: 13px; 
+	font-family: arial;
+}
+#big_box_phai{
+	width: 151px; height: auto; float: left;
+}
+#big_box_giua{
+	width: 481px; height: auto; float: left; margin-left: 10px; margin-right: 10px;
+}
+#thanh_cuoi{
+	width: 800px; height: 55px; background-color: #3b3e42; color: white; font-family: arial; font-size: 12px; line-height: 55px; text-align: center;
+}
+.con_tro:hover{
+	cursor: pointer;
+}
+#box_giua_1{
+	width: 480px; height: 77px; background-color: #ffb76dd4; border-radius: 20px; border: 1px solid orange; font-style: italic; color: white;
+	font-family: arial; font-size: 12px;
+}
+#box_giua_2{
+	width: 480px; height: 85px;
+}
+.box_giua_3{
+	clear:both; width: 480px; height: 85px;
+}
+.item_trai1{
+	width: 475px; height: 26px; background-image: url(images/main_bar_left.gif);font-family: arial; font-size: 12px; color: white; line-height: 26px;
+	font-weight: bold;padding-left: 5px;
+}
+.item_phai1{
+	width: 475px; height: 26px; background-image: url(images/main_bar_right.gif);font-family: arial; font-size: 12px; color: white; line-height: 26px;
+	text-align: right;padding-right: 5px; font-weight: bold;
+}
+.item_trai2{
+	width: 480px; height: 17px;font-family: arial; font-size: 11px; color: orange; line-height: 17px;
+}
+.item_phai2{
+	width: 480px; height: 17px;font-family: arial; font-size: 11px; color: orange; line-height: 17px;text-align: right;
+}
+.item_trai3{
+	float: left;width: 157px; height: 111px; border: 1px solid #8080807a;
+}
+.item_phai3{
+	float: right;width: 155px; height: 105px; border: 1px solid #8080807a;
+}
+.item_anh1{
+	margin-left: 1px; margin-top: 1px; width: 155px; height: 109px;
+}
+.item_anh2{
+	margin-left: 1px; margin-top: 1px; width: 153px; height: 103px; background-size: 100%;
+}
+.item_anh3{
+	margin-left: 1px; margin-top: 1px; width: 153px; height: 106px; background-size: 100%;
+}
+.item_trai4{
+	float: right;width: 315px; height: 111px; font-family: arial; font-size: 12px; text-align: justify;
+}
+.item_phai4{
+	float: left; width: 316px; height: 105px; font-family: arial; font-size: 12px; text-align: justify;
+}
+.orange{
+	color: orange;
+}
+#item_giua{
+	margin-top: 10px; margin-left: 9px; margin-right: 10px; text-align: justify;
+}

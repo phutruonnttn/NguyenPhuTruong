@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu da cap</title>
+	<style type="text/css">
+		#menu{
+			background: green;
+			height: 42px;
+			padding-left: 0;
+		}
+		.item{
+			line-height: 42px;
+			list-style: none;
+			float: left;
+			padding-right: 20px;
+			padding-left: 20px;
+			position: relative;
+		}
+		.item>a{
+			text-decoration: none;
+			color: #fff;
+		}
+		.item:hover{
+			background-color: blue;
+
+		}
+		.item:hover>a{
+			color: red;
+		}
+		.submenu{
+			display: none;
+			padding-left: 0;
+			width: 160px;
+			left: 0px;
+			background: green;
+			position: absolute;
+		}
+		.item:hover .submenu{
+			display: block;
+		}
+		.item:hover .submenu .item{
+			float: none;
+			padding-left: 10px;
+			padding-right: 0;
+		}
+	</style>
+</head>
+<body style="height: 1000px">
+	<ul id="menu">
+		<li class="item">
+			<a href="#">Home</a>
+		</li>
+		<li class="item">
+			<a href="">Course</a>
+			<ul class="submenu">
+				<li class="item">
+					<a href="">Java</a>
+				</li>
+				<li class="item">
+					<a href="">PHP</a>
+				</li>
+				<li class="item">
+					<a href="">Front End</a>
+				</li>
+			</ul>
+		</li>
+		<li class="item">
+			<a href="">About</a>
+		</li>
+	</ul>
+</body>
+</html>

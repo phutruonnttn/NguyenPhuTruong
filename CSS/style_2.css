@@ -1,0 +1,128 @@
+#menu{
+	background: #78b43d;
+	height: 45px;
+	padding-left: 0;
+}
+.item_first{
+	line-height: 18px;
+	list-style: none;
+	border-right: 2px groove #f5eeee78;
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	position: relative;
+}
+.item{
+	line-height: 19px;
+	list-style: none;
+	border-right: 2px groove #f5eeee78;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.item>a{
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	font-size: 14px;	
+}
+.item:hover{
+	cursor: pointer;
+}
+.item>a:hover{
+	text-decoration: underline;
+}
+.item1>a{
+	padding-left: 13px;
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	color: black;
+	font-size: 13px;	
+}
+.icoSearTop {
+	background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -4887px;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+.submenu{
+	display: none;
+	padding-left: 0;
+	width: 210px;
+	left: 0px;
+	background: #aad862;
+	position: absolute;
+}
+.item:hover .submenu{
+	display: block;
+	cursor: pointer;
+}
+.submenu .item1{
+	line-height: 19px;
+	list-style: none;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.item:hover .submenu .item1{
+	float: none;
+	height: 21px;
+	padding-top: 10px;
+	border-top: 1px solid #78b43d;
+	line-height: 11px;
+	padding-left: 13px;
+	padding-right: 0;
+	position: relative;
+}
+.item:hover .submenu .item1:hover{
+	background-color: #78b43d;
+}
+.item:hover .submenu .item1:hover>a{
+	color: white;
+}
+.item:hover .submenu .item1 .anh{
+	position: absolute;
+	bottom: 12px;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.submenu1{
+	display: none;
+	padding-left: 0;
+	width: 160px;
+	left: 0px;
+	background: #78b43d;
+	position: absolute;
+}
+.item1:hover .submenu1{
+	display: block;
+	cursor: pointer;
+	top: -1px;
+	left: 190px;
+}
+.item1:hover .submenu1 .item2{
+	list-style: none;
+	float: none;
+	height: 21px;
+	padding-top: 10px;
+	border-top: 1px solid #fff;
+	line-height: 11px;
+	padding-left: 3px;
+	padding-right: 0;
+	position: relative;
+}
+.item1:hover .submenu1 .item2:hover a{
+	color: white;
+}
+.item2>a{
+	padding-left: 13px;
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	color: black;
+	font-size: 13px;	
+}

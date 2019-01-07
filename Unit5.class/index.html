@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="icon" href="https://d2d3qesrx8xj6s.cloudfront.net/favicon.ico" type="image/x-icon">
+	<style type="text/css">
+		#login{
+			margin: auto;
+			width: 400px;
+			border: 1px solid #f7f7f7;
+			border-radius: 3px;
+			height: 610px;
+			box-shadow: 0px 0px 9px black;
+			background-color: #f7f7f7;
+		}
+		#title{
+			font-weight: bold;
+			font-family: arial;
+			font-size: 22px;
+			line-height: 40px;
+			padding-left: 40px;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		#close{
+			color: #c6c6c6;
+			margin-left: 96px;
+		}
+		#close:hover{
+			color: red;
+			cursor: pointer;
+		}
+		#button{
+			height: 150px;
+		}
+		.bt{
+			height: 50px;
+			width: 320px;
+			background-color: #538ac5;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			border-radius: 5px;
+			margin-left: 40px;
+			border-color: #538ac5;
+		}
+		.text:focus{
+			outline: none;
+			border-color: #78afe4;
+			box-shadow: 0px 0px 2px #78afe4;
+			/* border-color: rgba(126, 239, 104, 0.8);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6); */
+		}
+		#content{
+			margin-top: 40px;
+			margin-left: 40px;
+		}
+		.text{
+			width: 290px;
+			height: 40px;
+			border-radius: 5px;
+			font-size: 15px;
+			padding-left: 30px;
+		}
+		#ft1{
+			margin-top: 20px;
+			margin-left: 20px;
+			color: #8b8b8b;
+			font-weight: bold;
+			font-size: 18px;
+			float: left;
+		}
+		#ft1:hover{
+			cursor: pointer;
+			color: blue;	
+		}
+		.bt2{
+			height: 43px;
+			width: 75px;
+			background-color: #ca5b54;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			border-radius: 5px;
+			margin-left: 40px;
+			margin-top: 22px;
+    		margin-left: 103px;
+    		border-color: #ca5b54;	 
+		}
+		.bt:hover{
+			cursor: pointer;
+		}
+		.bt2:hover{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body style="margin-top: 20px">
+	<div id="login">
+		<div id="header">
+			<div id="title">
+				Login to Bootsnipp
+				<span id="close">x</span>
+			</div>
+			<div id="button">
+				<button class="bt">Login with Facebook</button>
+				<div style="height: 20px"></div>
+				<button class="bt" style="background-color: #5db1d3">Login with Twitter</button>
+			</div>
+		</div>
+		<div><hr style="size: 100%"></div>
+		<div id="content">
+			<input type="Email" class="text" name="" placeholder="Email">
+			<div style="height: 20px"></div>
+			<input type="password" class="text" name="" placeholder="Password">
+			<div style="margin-top: 15px; margin-bottom: 40px">Are you a bussiness? <span style="color: #5b8ec6">Get started here</span></div>
+		</div>
+		<div><hr style="size: 100%"></div>
+		<div id="footer">
+			<div id="ft1">Forgot your password?<br>Sign up now</div>
+			<button class="bt2">Login</button>
+		</div>
+	</div>
+</body>
+</html>

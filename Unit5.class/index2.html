@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu đa cấp</title>
+	<style type="text/css">
+	#menu{
+		background: black;
+		height: 42px;
+		padding-left: 0;
+	}
+	.item{
+		margin-top: 4px;
+		margin-bottom: 4px;
+		line-height: 33px;
+		list-style: none;
+		border-right: 1px solid white;
+		float: left;
+		padding-right: 30px;
+		padding-left: 30px;
+		position: relative;
+	}
+	.item1{
+		line-height: 33px;
+		list-style: none;
+		border-right: 1px solid white;
+		float: left;
+		padding-right: 30px;
+		padding-left: 30px;
+		position: relative;
+	}
+	.item>a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.item1>a{
+		text-decoration: none;
+		color: black;
+	}
+	.item:hover{
+		background-color: red;
+	}
+	.item:hover>a{
+		color: #fff;
+	}
+	.submenu{
+		display: none;
+		padding-left: 0;
+		padding-top: 0;
+		width: 160px;
+		left: 0px;
+		background: white;
+		position: absolute;
+		top: 33px; 
+		box-shadow: 0px 5px 9px grey;
+	}
+	.submenu .item a{
+		color: black; 
+	}
+	.item:hover .submenu{
+		display: block;
+	}
+	.item:hover .submenu .item{
+		float: none;
+		padding-left: 10px;
+		padding-right: 0;
+	}
+</style>
+</head>
+<body>
+	<ul id="menu">
+		<li class="item">
+			<a href="#">Home</a>
+		</li>
+		<li class="item">
+			<a href="">News</a>
+		</li>
+		<li class="item">
+			<a href="">Dropdown</a>
+			<ul class="submenu">
+				<li class="item1" style="height: 5px; border-top: none; background-color: black;     padding-right: 130px;border-right-width: 0px;"></li>
+				<li class="item1">
+					<a href="">Link 1</a>
+				</li>
+				<li class="item1">
+					<a href="">Link 2</a>
+				</li>
+				<li class="item1">
+					<a href="">Link 3</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>

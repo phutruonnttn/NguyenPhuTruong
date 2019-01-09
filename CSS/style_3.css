@@ -283,6 +283,17 @@
 				color: #fff;
 				font-family: arial;
 			}
+			.textBox h5{
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				top: 50%;
+				left: 80%;
+				/* transition: .5s; */
+				transform: translateX(-50%) translateY(-50%);
+				color: #fff;
+				font-family: arial;
+			}
 			.imageBox:hover{
 				cursor: pointer;
 			}

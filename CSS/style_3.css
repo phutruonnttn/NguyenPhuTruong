@@ -124,7 +124,7 @@
 		}
 		.blue_hover:hover{
 			cursor: pointer;
-			color: #84ccff;
+			color: #1167a8;
 		}
 		.underline_hover:hover{
 			cursor: pointer;
@@ -553,7 +553,7 @@
 				margin: auto;
 				float: right;
 			}
-			.anh .camera{
+			.camera{
 				position: absolute;
 				bottom: 0;
 				left: 0;

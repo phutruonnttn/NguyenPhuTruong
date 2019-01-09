@@ -1,0 +1,739 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+		
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+	
+/*==Header==*/
+#header{
+	color: white;
+	width: 100%;
+}
+
+.wrapper{
+	width: 66%;
+	margin: auto;
+	position: relative;
+}
+
+#boxhead{
+	background-color: #e84118;
+	font-size: 30px;
+	font-weight: bold;
+	height: 65px;
+	line-height: 65px;
+}
+
+	#boxhead a{
+		text-decoration: none;
+		color: white;
+	}
+
+	#boxhead a:hover{
+		font-size: 31px;
+	}
+
+		/*==Menu==*/
+		#menu{
+			background-color: #c23616;
+			height: 42px;
+			line-height: 42px;
+		}
+		#menu ul li{
+			list-style: none;
+			float: left;		
+		}
+
+		#menu ul{
+			clear: both;
+		}
+
+		#menu ul li a{
+			text-decoration: none;
+			color: white;
+			padding: 5px 10px;
+			border-right: 1px solid #7f8fa6;
+		}
+				
+		#menu ul li a:hover{
+			font-weight: bold;
+			border-bottom: 5px solid white;
+		}
+	/*==End Menu==*/
+		
+	#boxad{
+		height: 110px;
+		background-color: #dcdde1;
+	}
+
+	.wrap{
+		width: 70.2%;
+		margin: auto;
+	}
+
+	.adtext{
+		font-weight: bold;
+		color: #718093;
+		text-align: right;
+		padding-top: 3px;
+	}
+
+	.imgboxad{
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.imgad{
+		height: 80px;
+		background-image: url(images/EZV3A6D4CREHPLDIZGR2W5.jpg);			
+		position: relative;
+	}
+
+	.ad{
+		background-color: white;
+		width: 90px;
+		height: 20px;
+		background-image: url(images/c_30_us.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		right: 0px; 
+		position: absolute;
+	}
+			
+/*==End Header==*/
+
+/*==Content==*/
+#content{
+	margin: auto;
+	width: 66%;
+	height: auto;
+	border: 1 solid black;
+	background-color: white;
+}
+	
+	.cde{
+		float: left;
+	}
+
+	/*==Boxleft==*/
+	.boxleft{
+		padding-top: 15px;
+		margin-left: -25%;
+		margin-bottom: 25%;
+		width: 95%;
+		text-decoration: left;
+		height: auto;
+	}
+	
+
+		/*==Box1==*/
+		.head1{
+			font-size: 29px;
+			font-weight: bold;
+			margin-bottom: 7px;
+		}
+			
+			.head1 a{
+				text-decoration: none;
+				color: black;
+			}
+
+			.head1 a:hover{
+				font-size: 30px;
+			}
+
+		.content1{
+			position: relative;
+		}
+		.con1left{
+			width: 40%;
+			font-size: 14px;
+			color: gray;
+		}
+
+			.con1left_1{
+				margin-bottom: 3px;
+			}
+
+			.con1left_2{
+				margin-bottom: 5px;
+			}
+
+			.con1left_2 a{
+				text-decoration: none;
+				color: #e84118;
+				padding-left: 3px;
+				border-left: 1px solid gray;
+			}
+			
+			.con1left_3{
+				margin-bottom: 3px;
+				font-size: 16px;
+				color: black;
+			}
+
+				.con1left_3 a{
+					text-decoration: none;
+					color: black;
+				}
+				
+				.con1left_3 a:hover{
+					font-size: 16.5px;
+				}
+
+		.con1right{
+			position: absolute;
+			right: 0px;
+			top: 0px;
+			width: 60%;
+			height: 100%;
+			background-image: url(images/151117112223_russian_plane_640x360_afp_nocredit.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+
+		.box1{
+			padding-bottom: 5%;
+			border-bottom: 1px solid gray;
+		}
+		/*==End Box1==*/
+
+		/*==Box2==*/
+			.box2{
+				position: relative;
+				padding-bottom: 10%;
+				border-bottom: 1px solid gray;
+			}
+			/*==Box2left==*/
+				.box2left{
+					margin-top: 2%;
+					width: 30%;
+				}
+				
+					.box2left_img{
+						width: 100%;
+						height: 105px;
+						background-image: url(images/151117212649_wembley_fans_promo_640x360_reuters_nocredit.jpg);
+						background-repeat: no-repeat;
+						background-size: 100%;
+						margin-bottom: 1%;
+					}
+					
+					.box2left_content_head{
+						font-size: 17px;
+						font-weight: bold;
+					}
+
+						.box2left_content_head a{
+							text-decoration: none;
+							color: black;
+						}
+						
+						.box2left_content_head a:hover{
+							font-size: 18px;
+						}
+
+					.box2left_content_con{
+						font-size: 14px;
+						color: gray;
+					}
+
+					.box2left_content_date{
+						font-size: 14px;
+						color: gray;
+					}
+
+					.box2left_content_date a{
+						text-decoration: none;
+						color: #e84118;
+						padding-left: 3px;
+						border-left: 1px solid gray;
+					}
+
+					.box2left_footer{
+						margin-top: 3px;
+						font-size: 16px;
+						color: black;
+					}
+
+						.box2left_footer a{
+							text-decoration: none;
+							color: black;
+						}
+
+						.box2left_footer a:hover{
+							font-size: 16.5px;
+						}
+
+			/*==Box2center==*/
+				.box2center{
+					width: 30%;
+					position: absolute;
+					top: 0px;
+					left: 33%;
+					padding-left: 3%;
+					border-left: 1px solid gray;
+					padding-right: 3%;
+					border-right: 1px solid gray;
+					padding-bottom: 1.5%;
+				}
+				
+					.box2center_img{
+						width: 100%;
+						height: 105px;
+						background-image: url(images/151117174502_gen_tran_dai_quang_640x360_hoangdinhnamafpgettyimages_nocredit.jpg);
+						background-repeat: no-repeat;
+						background-size: 100%;
+						margin-bottom: 1%;
+					}
+					
+					.box2center_content_head{
+						font-size: 17px;
+						font-weight: bold;
+					}
+
+						.box2center_content_head a{
+							text-decoration: none;
+							color: black;
+						}
+
+						.box2center_content_head a:hover{
+							font-size: 17.3px;
+						}
+					
+					.box2center_content_con{
+						font-size: 14px;
+						color: gray;
+					}
+
+					.box2center_content_date{
+						font-size: 14px;
+						color: gray;
+					}
+
+					.box2center_content_date a{
+						text-decoration: none;
+						color: #e84118;
+						padding-left: 3px;
+						border-left: 1px solid gray;
+					}
+
+					.box2center_footer{
+						margin-top: 3px;
+						font-size: 16px;
+						color: black;
+					}
+
+						.box2center_footer a{
+							text-decoration: none;
+							color: black;
+						}
+
+						.box2center_footer a:hover{
+							font-size: 16.5px;
+						}
+
+			/*==Box2right==*/
+				.box2right{
+					width: 30%;
+					position: absolute;
+					top: 0px;
+					right: 0px;
+				}
+
+					.box2right_head{
+						font-size: 17px;
+						font-weight: bold;
+					}
+
+						.box2right_head a{
+							text-decoration: none;
+							color: black;
+						}
+
+						.box2right_head a:hover{
+							font-size: 17.2px;
+						}
+
+					.box2rightcon{
+						padding-bottom: 23%;
+					}
+		/*==End Box2==*/
+
+		/*==Box3==*/
+		.box3{
+			margin-top: 3%;
+			font-size: 15px;
+			height: auto;
+			padding-bottom: 4%;
+			border-bottom: 1px solid gray;		
+		}
+
+			.box3text{
+				width: 49%;
+				height: 60px;
+				float: left;
+			}
+				
+				.box3text h4 a{
+					text-decoration: none;
+					color: black;
+				}
+				
+				.box3text h4 a:hover{
+					font-size: 15.5px;
+				}
+
+				.box3text_date{
+					color: gray;
+				}
+
+				.box3text_world{
+					color: #e84118;
+					padding-left: 5px;
+					border-left: 1px solid gray;
+				}
+		/*==End Box3==*/
+		
+		/*==Box4==*/
+		.box4{
+			margin-top: 2.5%;
+			position: relative;
+			padding-bottom: 4%;
+			border-bottom: 1px solid gray;
+		}
+			.box4_head{
+				font-size: 18px;
+			}
+			
+			.box4_head a{
+				text-decoration: none;
+				color: black;
+			}
+
+			.box4_head a:hover{
+				font-size: 18.5px;
+			}
+
+			/*==Box4 left==*/
+			.box4_left{
+				width: 50%;
+				position: relative;
+			}
+
+				.box4_left_img{
+					margin-top: 5px;
+					width: 45%;
+					height: 100px;
+					background-size: 100%;
+					background-repeat: no-repeat;
+				}
+					.top1{
+						background-image: url(images/150904143012_truong_duy_nhat_640x360_bbc_nocredit.jpg);
+					}
+
+					.middle1{
+						background-image: url(images/151116113457_hanoi_french_embassy_gathering_640x360_ap_nocredit.jpg);
+					}
+
+					.bottom1{
+						background-image: url(images/151114143031_bataclan_theatre_640x360_ap_nocredit.jpg);
+					}
+
+					.play{
+						width: 18px;
+						height: 16px;
+						background-color: white;
+						position: absolute;
+					}
+
+					.time{
+						width: 30px;
+						height: 16px;
+						background-color: black;
+						opacity: 0.6;
+						position: absolute;
+						color: white;
+						line-height: 16px;
+						text-align: center;
+						font-size: 13px;
+					}
+
+				.box4_left_text{
+					position: absolute;
+					left: 45%;
+					margin-left: 2%;
+				}
+			/*==End Box4 left==*/
+
+			/*==Box4 right==*/
+			.box4_right{
+					width: 50%;
+					position: absolute;
+					top: 6%;
+					right: 0px;
+				}
+
+				.box4_right_img{
+					margin-top: 5px;
+					width: 43%;
+					height: 100px;
+					background-size: 100%;
+					background-repeat: no-repeat;
+				}
+					.top2{
+						background-image: url(images/150215132438_hangout_640x360_bbc_nocredit.jpg);
+					}
+
+					.middle2{
+						background-image: url(images/151115051218_paris_bataclan_640x360_getty_nocredit.jpg);
+					}
+
+					.bottom2{
+						background-image: url(images/151114151241_paris-candle.jpg);
+					}
+
+				.box4_right_text{
+					position: absolute;
+					left: 43%;
+					margin-left: 2%;
+				}
+			/*==End Box4 right==*/
+		/*==End Box4==*/
+
+		/*==Box5==*/
+		.box5{
+			padding-top: 3%;
+			padding-bottom: 17%;
+			border-bottom: 1px solid gray;
+		}
+
+			.box5_head{
+				font-size: 18px;
+			}
+
+				.box5_head a{
+					text-decoration: none;
+					color: black;
+				}
+				
+				.box5_head a:hover{
+					font-size: 18.5px;
+				}
+
+		.box5text{
+			position: relative; 
+		}
+			.box5text_left{
+				margin-top: 1%;
+				width: 44%;
+			}
+			
+				.box5text_left h2 a{
+					text-decoration: none;
+					color: black;
+				}
+				
+				.box5text_left h2 a:hover{
+					font-size: 1.05em;
+				}
+
+			.box5text_right{
+				margin-top: 1%;
+				width:56%;
+				height: 165%;
+				background-image: url(images/150921123226_islamic_state_flag_is_640x360_islamicstate_nocredit.jpg);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+			}
+		/*==End Box5==*/
+		
+		/*==Box6==*/
+			.box6text{
+				position: relative; 
+			}
+
+			.box6text_img{		
+				width: 25%;
+				height: 90px;
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}
+				
+				.mot{
+					background-image: url(images/151115163552_paris_attack_woman_in_australia_640x360_afpgetty_nocredit.jpg);
+				}
+
+				.hai{
+					background-image: url(images/150704103917_eurostar_train_channel_tunnel_calais_640x360_reuters_nocredit.jpg);
+				}
+
+				.ba{
+					background-image: url(images/150904085336_wembley_stadium_640x360_pa_nocredit.jpg);
+				}
+
+				.bon{
+					background-image: url(images/151109171204_mao_suit_fashion_3_640x360_getty_nocredit.jpg);
+				}
+				
+				.nam{
+					background-image: url(images/151117112223_russian_plane_640x360_afp_nocredit.jpg);
+				}
+
+			.box6text_text{
+				width: 73%;
+				position: absolute;
+				top: -5px;
+				right: 0px;
+			}
+
+				.box6text_text h2 a{
+					text-decoration: none;
+					color: black;
+				}
+
+				.box6text_text h2 a:hover{
+					font-size: 1.02em;
+				}
+		/*==End Box6==*/
+		
+		/*==Box7==*/
+		.box7{
+			margin-top: 1%;
+			height: auto;
+		}
+		
+			.abc{
+				float: left;
+			}
+			.box7left{
+				width: 48%;	
+				display: inline-block;		
+			}
+
+				.box7left_img{
+					height: 175px;
+					background-size: 100%;
+					background-repeat: no-repeat;
+					position: relative;
+				}
+				
+					.camera{
+						text-align: center;
+						background-color: white;
+						width: 6%;
+						height: 10%;
+						position: absolute;
+						bottom: 3%;
+					}
+
+					.one{
+						background-image: url(images/151027153428_cgap_2015_promo640.jpg);
+					}
+
+					.two{
+						background-image: url(images/151112130019_ng_ppn_promo640.jpg);
+					}
+
+				.box7left_text h3 a{
+					text-decoration: none;
+					color: black;
+				}
+
+				.box7left_text h3 a:hover{
+					font-size: 1.07em;
+				}
+
+			.box7right{
+				width: 48%;
+				padding-left: 3%;		
+			}
+		/*==End Box7==*/
+	/*==EndBoxleft==*/
+
+	/*==Boxright==*/
+	.boxright{
+		width: 250px;
+		background-color: #dcdde1;
+		height: 2800px;
+		position: absolute;
+		top: 20px;
+		right: -70px;
+	}
+	/*==End Boxright==*/
+
+
+
+/*==Footer==*/
+#footer{
+	background-color: #535c68;
+	height: auto;
+	padding-top: 1%;
+	color: white;
+}
+	#footer h2{
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+
+		#footer h2 a{
+			text-decoration: none;
+			color: white;
+		}
+
+		#footer h2 a:hover{
+			font-size: 1.1em;
+		}
+	
+	#footer ul{
+		padding-bottom: 3.5%;
+		border-bottom: 1px solid gray;
+		margin-bottom: 2%;
+	}
+
+	#footer ul li{
+		list-style: none;
+		float: left;
+		padding-left: 20px;
+		padding-right: 100px;
+		border-right: 1px solid gray; 
+	}
+
+	#footer ul li a{
+		text-decoration: none;
+		color: white;
+	}
+	
+	#footer ul li:hover{
+		font-weight: bold;
+	}
+	
+	.second{
+		font-size: 13px;
+		padding-left: 0px !important;
+		padding-right: 40px !important;
+		border-right: 0px !important;
+	}	
+
+	#footer p{
+		font-size: 13px;
+		padding-bottom: 5px;
+	}
+
+		#footer p a{
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+		}
+
+		#footer p a:hover{
+			font-size: 14px;
+		}
+/*==End Footer==*/

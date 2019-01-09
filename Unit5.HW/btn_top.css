@@ -1,0 +1,18 @@
+.btn-top {
+    background-image: url(../images/unit05/arrowPageUp.png);
+    background-size: 100% 100%;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    z-index: 9999;
+    bottom: 20px; 
+    opacity: 0.6;
+    transition: background 3s,color .3s;
+    -webkit-transition: background 3s,color .3s;
+    -moz-transition: background 3s,color .3s;
+}

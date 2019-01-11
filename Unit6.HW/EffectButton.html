@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+  .btn-2 {
+    letter-spacing: 0;
+  }
+
+  .btn-2.color-green:hover,
+  .btn-2.color-green:active {
+    color: green;
+  }
+
+  .btn-2.color-blue:hover,
+  .btn-2.color-blue:active {
+    color: blue;
+  }
+
+  .btn-2:hover,
+  .btn-2:active {
+    letter-spacing: 5px;
+  }
+
+  .btn-2:after,
+  .btn-2:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(#fff, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+    opacity: 0;
+  }
+
+  .btn-2.color-green:after,
+  .btn-2.color-green:before {
+    border: 1px solid green;
+  }
+
+  .btn-2.color-blue:after,
+  .btn-2.color-blue:before {
+    border: 1px solid blue;
+  }
+
+  .btn-2:hover:after,
+  .btn-2:hover:before {
+    backface-visibility: hidden;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+  <div id="main">
+    <div class="container">
+      <div class="row">
+        <div class="block col-md-2">
+          <a href="#" class="btn btn-2 color-green">
+            Hover
+          </a>
+        </div>
+
+        <div class="block col-md-2">
+          <a href="#" class="btn btn-2 color-blue">
+            Hover
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

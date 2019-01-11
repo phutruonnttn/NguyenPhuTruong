@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<style type="text/css">
+	nav {
+		background: green;
+		height: 42px;
+	}
+	nav .ul{
+		padding-left: 0;
+	}
+	.item{
+		float: left;
+		padding-left: 10px;
+		padding-right: 10px;
+		list-style: none;
+		line-height: 42px;
+	}
+	.item:hover{
+		background: blue;
+	}
+	.item:hover a{
+		color: red;
+	}
+	.item a{
+		text-decoration: none;color: #fff;
+	}
+	.item:first-child{
+		display: none;
+		color: #fff;
+	}
+
+
+	@media (max-width: 648px){
+		.item{
+			display: none;
+		}
+		.item:first-child{
+			display: block;
+		}
+		.item:first-child:hover~.item{
+			float: none;
+			display: block;
+			background: green;
+			
+		}
+	}
+</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="item">
+				<i class="fas fa-bars"></i>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+			<li class="item">
+				<a href="">Home</a>
+			</li>
+		</ul>
+	</nav>
+</body>
+</html>

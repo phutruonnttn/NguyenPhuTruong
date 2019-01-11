@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px; 
+			/* border-radius: 100px; */
+			background: red;
+			position: relative;
+
+
+
+			animation: zent;
+			/* firefox */
+			-moz-animation: zent;
+			/* opera */
+			-o-animation: zent;
+			/* safari */
+			-webkit-animation: zent;
+			/* IE */
+			-ms-animation: zent;
+
+
+			animation-duration: 3s;
+
+			transform: rotate(45deg);
+			/* transform: scale(2,3); */
+
+
+			/* chay vo han */
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes zent{
+			0%{
+				top: 0;left :0;
+				background-color: red;
+			} 
+			25%{
+				top: 0;left :400px;
+				background-color: yellow;
+			}
+			50%{
+				top: 400px;left :400px;
+				background-color: blue;
+			}
+			75%{
+				top: 400px;left :0;
+				background-color: green;
+			}
+			100%{
+				top: 0;left :0;
+				background-color: orange;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

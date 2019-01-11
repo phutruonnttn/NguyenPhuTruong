@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style type="text/css">
+		.box{
+			width: 25%; float: left;
+			height: 200px;
+		}
+		.green{
+			background: green;
+		}
+		.red{
+			background: red;
+		}
+		.blue{
+			background: blue;
+		}
+		.black{
+			background: black;
+		}
+		
+		@media (max-width: 992px){
+			.box{
+				width: 50%;
+			}
+		}
+		@media (max-width: 500px){
+			.box{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box green"></div>
+	<div class="box red"></div>
+	<div class="box blue"></div>
+	<div class="box black"></div>
+</body>
+</html>

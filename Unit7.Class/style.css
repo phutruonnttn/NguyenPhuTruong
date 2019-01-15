@@ -1,0 +1,104 @@
+#wrapper{
+	width: 90%;
+	margin: auto;	
+	background-color: #f7f7f7;
+}
+
+.bigBox{
+	width: 24%;
+	/* height: 370px; */
+	float: left;
+	margin-top: 7px;
+	margin-left: 9px;
+}
+
+.imageBox{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.imageBox img{
+	width: 100%;
+	height: 100%;
+	transition: .5s;
+}
+.textBox{
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(217, 225, 230, 0.72);
+	transition: .5s;
+}
+.textBox h3{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 26%;
+	left: 22.5%;
+	/* transition: .5s; */
+	/* transform: translateX(-50%) translateY(-50%); */
+	color: #e87642;
+	font-family: arial;
+}
+.textBox h5{
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 39%;
+	left: 0.5%;
+	text-align: center;
+	/* transition: .5s; */
+	/* transform: translateX(-50%) translateY(-50%); */
+	color: #fff;
+	font-family: arial;
+}
+.textBox i{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 63%;
+	left: 0.5%;
+	/* transition: .5s; */
+	/* transform: translateX(-50%) translateY(-50%); */
+	color: #e87642;
+}
+.textBox i:hover{
+	color: #0fad9b;
+}
+.imageBox:hover{
+	cursor: pointer;
+}
+.imageBox:hover .textBox{
+	left: 0%;
+}
+.imageBox:hover img{
+	transform: scale(1.2);
+}
+.i1,.i2{
+	font-family: arial;
+	color: #878787;
+	text-align: center;
+}
+.i1 h3{
+	font-weight: normal;
+}
+.i2 h5{
+	font-weight: normal;
+}
+@media (max-width: 1033px){
+	.bigBox {
+		width: 48%;
+	}
+}
+
+@media (max-width: 580px){
+	.bigBox {
+		width: 98%;
+	}
+}
+

@@ -5,12 +5,14 @@
 	<title>Multi</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="animate.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 	<script type="text/javascript" src="backToTop.js"></script>
 	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="jssor.slider.min.js"></script>
 	<script type="text/javascript" src="slideNormal.js"></script>
+	<script type="text/javascript" src="wow.min.js"></script>
 	<script>
 		(function(s, u, b, i, z){
 			u[i]=u[i]||function(){
@@ -84,10 +86,10 @@
 			</div>
 
 			<div class="item2">
-				<h2>Providing Our Clients</h2>
-				<h1>Best & Creative Solutions</h1>
+				<h2 class=" wow slideInUp">Providing Our Clients</h2>
+				<h1 class=" wow slideInUp">Best & Creative Solutions</h1>
 				
-				<div class="bigBoxIcon">
+				<div class="bigBoxIcon wow lightSpeedIn">
 					<div class="box-icon">
 						<i class="fas fa-cogs"></i>
 					</div>
@@ -95,21 +97,21 @@
 					<h3>CREATIVE SOLUTIONS</h3>
 				</div>
 
-				<div class="bigBoxIcon">
+				<div class="bigBoxIcon wow lightSpeedIn">
 					<div class="box-icon">
 						<i style="left: 20%;" class="fas fa-leaf"></i>
 					</div>
 					<h3>CREATIVE SOLUTIONS</h3>
 				</div>
 
-				<div class="bigBoxIcon">
+				<div class="bigBoxIcon wow lightSpeedIn">
 					<div class="box-icon">
 						<i style="left: 25%;" class="far fa-heart"></i>
 					</div>
 					<h3>CREATIVE SOLUTIONS</h3>
 				</div>
 
-				<div class="bigBoxIcon">
+				<div class="bigBoxIcon wow lightSpeedIn">
 					<div class="box-icon">
 						<i class="fas fa-laptop"></i>
 					</div>
@@ -330,5 +332,8 @@
 		</div>
 	</div>
 	<a class="backToTop" href="javascript:void(0);" title="Top" style="display: none;"></a>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>

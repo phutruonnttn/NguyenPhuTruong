@@ -1,0 +1,46 @@
+body{
+	background-image: url(bg2.jpg);
+}
+#container{
+	margin: auto;
+	width: 60%;
+	margin-top: 2%;
+}
+.section{
+	float: left;
+}
+.content{
+	position: absolute;
+	left: 20.3%;
+	width: 50%;
+	display: none;
+	background-color: #fff;
+}
+.tab{
+	background-color: #737171;
+	color: #fff;
+	margin-right: 10px;
+	padding: 7px 19px;
+}
+.tab:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.active{
+	display: block;
+	background-color: #fff;
+	color: black !important;
+	text-decoration: none !important;
+}
+h3{
+	margin: 0;
+	padding: 9px;
+	margin-left: 12px;
+}
+h4{
+	margin: 0;
+	font-weight: normal;
+	padding: 23px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+}

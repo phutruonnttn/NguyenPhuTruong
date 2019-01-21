@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do {
+			var t = parseInt(prompt('Mời bạn nhập vào n :', ''));
+			if (t<0) alert('Yêu cầu nhập n không âm ! Vui lòng nhập lại ...');
+		} while (t<0);
+		for (var i = 1; i <= t; i++) {
+			for (var j = 1; j <= i; j++) {
+				document.write('*');
+			}
+			for (var j = 1; j <= 3+t-i; j++) {
+				document.write('&nbsp&nbsp');
+			}
+			for (var j = 1; j <= t; j++) {
+				document.write('*');
+			}
+			for (var j = 1; j <= 3; j++) {
+				document.write('&nbsp&nbsp');
+			}
+			if(i==1 || i==t){
+				for (var j = 1; j <= t; j++) {
+					document.write('*');
+				}
+			} else {
+				document.write('*');
+				for (var j = 1; j <= t-2; j++) {
+					document.write('&nbsp&nbsp');
+				}
+				document.write('*');
+			}
+			for (var j = 1; j <= 3; j++) {
+				document.write('&nbsp&nbsp');
+			}
+			for (var j = 1; j <= t-i+1; j++) {
+				document.write('*');
+			}
+			document.write('<br />');
+		}
+	</script>
+</body>
+</html>

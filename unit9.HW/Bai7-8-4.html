@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n = parseInt(prompt('Mời bạn nhập vào N :', ''));
+		do {
+			var m = parseInt(prompt('Mời bạn nhập vào M :', ''));
+			if (m<n) {
+				alert('Yêu cầu M >= N ! Vui lòng nhập lại . . .')
+			}
+		} while (m<n);
+		var k = parseInt(prompt('Mời bạn nhập vào K :', ''));
+		var count = 0;
+		for (var i = n+1; i < m; i++) {
+			if (i%k==0) {
+				count++;
+			}
+		}
+		alert('Tổng các số chia hết cho K trong khoảng từ N đến M là : '+count);
+	</script>
+</body>
+</html>

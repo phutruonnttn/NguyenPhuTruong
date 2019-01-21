@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>	
+	<h1 id="name" name='Truong'>Hello World</h1>
+	<h1 class="nn">Hello World</h1>
+	<h1 class="nn">Hello World</h1>
+	
+	<button id="clickMe">Click me</button>
+	<script type="text/javascript">
+		// js
+		document.getElementsByClassName('nn')[0].style.color='green';
+
+		document.getElementById('clickMe').addEventListener('click',function(){
+
+			/*alert('ahihi');
+			document.getElementsByClassName('nn')[0].style.color='red';
+			document.getElementsByClassName('nn')[0].innerHTML = 'Hello'*/	
+
+
+			/*document.getElementById('name').setAttribute('name','NPT')*/
+
+			document.getElementById('name').getAttribute('name')
+
+			// in ra muc console
+			console.log(document.getElementById('name').getAttribute('name'))
+		})
+	</script>
+
+	<!-- <script type="text/javascript" src="main.js"></script> -->
+</body>
+</html>

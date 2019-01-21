@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do {
+			var n = parseInt(prompt('Mời bạn nhập vào n :', ''));
+			if (n<0) alert('Yêu cầu nhập n không âm ! Vui lòng nhập lại . . .');
+		} while (n<0);
+
+		var i = 0;
+		var s = 0;
+		do {
+			s+=i;
+			i++;
+		} while (i<=n);
+		alert('S = '+s);
+	</script>
+</body>
+</html>

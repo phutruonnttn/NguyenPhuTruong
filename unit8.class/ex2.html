@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input id="ip" type="text" name="">
+	<button id="clickMe">Add</button>
+	<table>
+		<tbody id="show">
+			
+		</tbody>
+	</table>
+
+
+	<script type="text/javascript">
+		var i = 1;
+		document.getElementById('clickMe').addEventListener('click',function(){
+			var a = document.getElementById('ip');
+
+			var content = document.getElementById('show');
+
+			/*content.innerHTML += a.value + '<br>';*/
+			/*content.innerHTML += `<div>`+ ip.value+`<button>Delete</button></div>`*/
+
+			content.innerHTML += `<tr id="`+i+`">
+				<td>`+ip.value+`</td>
+				<td><button id="del" onclick="funDel(`+i+`)">Delete</button></td>
+			</tr>`;
+
+			a.value= ''
+			i++;
+		})		
+
+		function funDel(id){
+			document.getElementById(id).remove()
+		}
+	</script>
+</body>
+</html>

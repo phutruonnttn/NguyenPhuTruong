@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="shortcut icon" href="https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/themes/codropstheme03/favicons/favicon.ico">
+</head>
+<body>
+	<div id="container">
+		<form>
+			<div id="login">
+				<table align="center" width="750px" height="400px">
+					<tr>
+						<td width="185px">Họ và tên</td>
+						<td width="295px"><input id="1" class="ip" type="text" name="name" size="35" placeholder="Nhập họ tên . . .">
+						</td>
+						<td width="175px">
+							<h5 class="tNull">Yêu cầu nhập đầy đủ họ tên</h5>
+							<h5 class="tName2">Họ tên phải lớn hơn 8 ký tự</h5>
+							<h5 class="tName">Họ tên không được chứa số</h5>
+						</td>
+					</tr>
+					<tr>
+						<td>Giới tính</td>
+						<td>
+							<input class="rd" type="radio" name="sex" checked="">Nam
+							<input class="rd" type="radio" name="sex">Nữ
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><input onblur="checkMail()" id="2" class="ip" type="text" name="name" size="35" placeholder="Nhập email . . ."></td>
+						<td>
+							<h5 class="tNull">Yêu cầu nhập email</h5>
+							<h5 class="tMail">Yêu cầu: abc@domain.xyz</h5>
+						</td>
+					</tr>
+					<tr>
+						<td>Số điện thoại</td>
+						<td><input id="3" class="ip" type="text" name="name" size="35" placeholder="Nhập số điện thoại . . ."></td>
+						<td>
+							<h5 class="tNull">Yêu cầu nhập số điện thoại</h5>
+							<h5 class="tSDT">Số điện thoại phải >= 10 số</h5>
+							<h5 class="tSDT2">SĐT không được chứa chữ</h5>
+						</td>
+					</tr>
+					<tr>
+						<td>Mật khẩu</td>
+						<td><input id="4" class="ip" type="password" name="name" size="35" placeholder="Nhập mật khẩu . . ."></td>
+						<td>
+							<h5 class="tNull">Yêu cầu nhập mật khẩu</h5>
+							<h5 class="tPass">Mật khẩu phải lớn hơn 8 ký tự</h5>
+						</td>
+					</tr>
+					<tr>	
+						<td>Xác nhận mật khẩu</td>
+						<td><input id="5" class="ip" type="password" name="name" size="35" placeholder="Xác nhận mật khẩu . . ."></td>
+						<td>
+							<h5 class="tNull">Yêu cầu xác nhận mật khẩu</h5>
+							<h5 class="tConfPass">Mật khẩu không khớp</h5>
+						</td>
+					</tr>
+				</table>
+				<img class="img active" src="images/dong3.gif">
+			</div>
+			<div id="buttons">
+				<input class="bt1" onclick="checkLogin()" type="button" name="login" value="Đăng ký">
+				<input class="bt2" onclick="removeAll()" type="reset" name="Reset" value="Xóa trắng">
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="Script2.js"></script>
+</body>
+</html>

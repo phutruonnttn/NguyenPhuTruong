@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="content">
+            <h5>ZentGroup</h5>
+        </div>
+       
+        <input type="button" value="Replace" id="btn-replace"/>
+       
+        <script language="javascript">
+          // Lấy button
+          var button = document.getElementById("btn-replace");
+           
+          // Thêm sự kiện click cho button
+          button.addEventListener("click", function(){
+             
+            // Tạo mới một thẻ
+            var p = document.createElement("h1");
+            p.innerHTML = "Xin chào!";
+                 
+            // Lấy thẻ cần replace
+            var replace = document.getElementsByTagName("h5")[0];
+             
+            // Replace
+            document.getElementById("content").replaceChild(p, replace);
+          });
+        </script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.noti{
+			margin: 0;
+			margin-top: 5px;
+			margin-left: 2px;
+			font-weight: normal;
+			font-style: italic;
+		}
+	</style>
+</head>
+<body>
+	<input id="text" type="text" name="">
+	<button id="add">Add</button>
+	<br>
+	<div style="height: 23px" id="tb"><h4 class="noti"></h4></div>
+	<button id="check" onclick="check()">Check All</button> 
+	<button id="uncheck" onclick="uncheck()">Uncheck All</button>
+	<button id="delCheck" onclick="delcheck()">Delete Check</button>
+	<table>
+		<tbody id="content">
+			
+		</tbody>
+	</table>
+
+	<script type="text/javascript">
+		document.getElementById('text').addEventListener('keyup',function(){
+			document.getElementsByClassName('noti')[0].innerHTML = ''
+		})
+		var listText = []
+		var count = 1;
+		document.getElementById('add').addEventListener('click',function(){
+			var input = document.getElementById('text');
+			var content = document.getElementById('content');
+
+			if(input.value == ""){
+				document.getElementsByClassName('noti')[0].innerHTML = `Vui lòng nhập kí tự . . .`
+			} else{
+				listText.push(input.value);
+				content.innerHTML += `<tr>
+					<td><input type="checkBox" class="check1"/></td>
+					<td id="`+count+`">`+input.value+`</td>
+					<td><button id="edit" onclick="funEdit('`+input.value+`','`+count+`')">Edit</button></td>
+					<td><button id="del" onclick="funDel(this)">Delete</button></td>
+				</tr>`
+				
+				input.value = "";
+				count ++;
+			}
+		})		
+
+		var pre = -1;
+		function funEdit(text1, iid){
+			var input = document.getElementById('text');
+			input.value = listText[iid-1];
+			if (document.getElementById('update') == null) {
+				var p = document.createElement("button");
+	            p.innerHTML = "Update";
+	            p.setAttribute('id', 'update');
+	            var element_child = document.getElementById('add');
+	            var element = document.getElementsByTagName("body")[0];
+	            element.insertBefore(p, element_child);
+	            document.getElementById('add').remove();
+			} else if (pre == iid){ 
+				return;
+			} else if (pre!=iid){
+				input.value = "";
+				p = document.createElement("button");
+	            p.innerHTML = "Add";
+	            p.setAttribute('id', 'add');
+	            element_child = document.getElementById('update');
+	            element = document.getElementsByTagName("body")[0];
+	            element.insertBefore(p, element_child);
+	            document.getElementById('update').remove();
+			}
+			pre = iid;
+			document.getElementById('update').addEventListener('click', function(){
+				document.getElementById(iid).innerHTML = input.value;
+				listText[iid-1] = input.value;
+				input.value = "";
+				if (document.getElementById('add') == null) {
+					p = document.createElement("button");
+		            p.innerHTML = "Add";
+		            p.setAttribute('id', 'add');
+		            element_child = document.getElementById('update');
+		            element = document.getElementsByTagName("body")[0];
+		            element.insertBefore(p, element_child);
+		            document.getElementById('update').remove();
+	        	}
+
+	            document.getElementById('add').addEventListener('click',function(){
+					var input = document.getElementById('text');
+					var content = document.getElementById('content');
+					if(input.value == ""){
+						document.getElementsByClassName('noti')[0].innerHTML = `Vui lòng nhập kí tự . . .`
+					} else{
+						listText.push(input.value);
+						content.innerHTML += `<tr>
+							<td><input type="checkBox" class="check1"/></td>
+							<td id="`+count+`">`+input.value+`</td>
+							<td><button id="edit" onclick="funEdit('`+input.value+`','`+count+`')">Edit</button></td>
+							<td><button id="del" onclick="funDel(this)">Delete</button></td>
+						</tr>`
+
+						input.value = "";
+						count ++;
+					}
+				})
+			})
+		}
+		
+		function funDel(id){
+			if (confirm('Are you sure ?')){
+			id.parentNode.parentNode.remove()}
+		}
+
+		function check(){
+			var check = document.getElementsByClassName("check1");
+			for (var i = 0; i < check.length; i++){
+				check[i].checked = true;
+			}
+		}
+		function uncheck(){
+			var check = document.getElementsByClassName("check1");
+			for (var i = 0; i < check.length; i++){
+				check[i].checked = false;
+			}
+		}
+		function delcheck(){
+			if (confirm('Are you sure ?')){
+			var check = document.getElementsByClassName("check1");
+			var i = 0;
+			while (i<check.length) {
+				if (check[i].checked) {
+					check[i].parentNode.parentNode.remove();
+				} else{
+				i++}
+			}}
+		}
+	</script>
+</body>
+</html>

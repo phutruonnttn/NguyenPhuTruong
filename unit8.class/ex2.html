@@ -3,10 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style type="text/css">
+		.noti{
+			margin: 0;
+			margin-top: 7px;
+			margin-left: 2px;
+			color: #757575;
+			font-weight: normal;
+			font-style: italic;
+			display: none;
+		}
+		.active{
+			display: block !important;
+		}
+	</style>
 </head>
 <body>
 	<input id="ip" type="text" name="">
 	<button id="clickMe">Add</button>
+	<button id="check">Check All</button>
+	<button id="uncheck">Uncheck All</button>
+	<h4 class="noti">Vui lòng nhập vào kí tự . . .</h4>
+	
+	
 	<table>
 		<tbody id="show">
 			
@@ -16,26 +35,37 @@
 
 	<script type="text/javascript">
 		var i = 1;
+		document.getElementById('ip').addEventListener('keyup',function(){
+			document.getElementsByClassName("noti")[0].classList.remove("active");
+		})
+
 		document.getElementById('clickMe').addEventListener('click',function(){
 			var a = document.getElementById('ip');
 
 			var content = document.getElementById('show');
 
+			if(document.getElementById("ip").value == ""){
+				document.getElementsByClassName("noti")[0].classList.add("active");
+			}
+			else{
 			/*content.innerHTML += a.value + '<br>';*/
 			/*content.innerHTML += `<div>`+ ip.value+`<button>Delete</button></div>`*/
 
 			content.innerHTML += `<tr id="`+i+`">
 				<td>`+ip.value+`</td>
+				<td><button id="del" onclick="funEdit(`+i+`)">Edit</button></td>
 				<td><button id="del" onclick="funDel(`+i+`)">Delete</button></td>
 			</tr>`;
 
 			a.value= ''
-			i++;
+			i++;}
 		})		
 
 		function funDel(id){
 			document.getElementById(id).remove()
 		}
+
+		
 	</script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<select onchange="myCity(this)">
+		<option value="1">Ha Noi</option>
+		<option value="2">Ho Chi Minh</option>
+	</select>
+
+	<select id="district">
+		<option value="1">Hai Ba Trung</option>
+		<option value="2">Hoan Kiem</option>
+	</select>
+	<script type="text/javascript">
+		function myCity(x){
+			if (x.value == 1) {
+				document.getElementById('district').innerHTML = `
+					<option value="1">Hai Ba Trung</option>
+					<option value="2">Hoan Kiem</option>
+				`
+			} else if (x.value == 2) {
+				document.getElementById('district').innerHTML = `
+					<option value="1">Quan 1</option>
+					<option value="2">Quan 8</option>
+				`
+			}
+		}
+	</script>
+</body>
+</html>

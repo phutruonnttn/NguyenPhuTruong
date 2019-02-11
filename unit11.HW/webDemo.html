@@ -2,107 +2,178 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Web Demo</title>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/webDemo.css">
+	<link rel="stylesheet" type="text/css" href="css/webDemoResponsive.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="shortcut icon" href="http://rn53themes.net/themes/demo/landing-pages/images/fav.ico" type="image/x-icon">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/wow.min.js"></script>
 </head>
 <body>
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
 	<div id="container">
 		<div id="title">
-			<div class="item1"><img class="img1" src="images/black-logo.png"></div>
+			<div class="item1"><img class="img1 wow bounceIn" src="images/black-logo.png"></div>
 			<div class="item2">
-				<div style="width: 50%; margin: auto; text-align: center;">
-					<div class="i1"><i style="padding-right: 5px; color: #fff" class="fas fa-download"></i>Download Now</div>
-					<div class="i2">Demo</div>
+				<div class="funcTitle">
+					<div class="i1 wow tada"><i class="fas fa-download iDown"></i>Download Now</div>
+					<div class="i2 wow tada">Demo</div>
 					<div class="clear"></div>
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="item3">
-				<h3>Out top productivity softwares</h3>
-				<h1>For Business</h1>
-				<h4>Ipsum dolor sit amet, consectetur adipisicing elit. Totam explicabo suscipit quod, porro saepe.</h4>
-				<div class="ii1">Get started for free</div>
+			<div class="item3 wow fadeIn">
+				<h3 class="out wow slideInLeft">Out top productivity softwares</h3>
+				<h1 class="forB wow slideInRight">For Business</h1>
+				<h4 class="mauris wow slideInLeft">Mauris nec nisi ut lacus maximus facilisis. Aenean vel quam ut turpis imperdiet gravida.</h4>
+				<div class="ii1 wow jackInTheBox">Get started for free</div>
 				<div class="img2"></div>
 			</div>
 		</div>
 		<div id="content">
 			<div class="ct1">
 				<div class="ct1-1">
-					<div class="img3"></div>
-					<div style="clear: both;"></div>
+					<img src="images/free.png" class="freeImg wow bounceInLeft">
+					<div class="clear"></div>
 				</div>
-				<div class="ct1-2">
-					<div style="width: 84%">
-						<h3>Download the</h3>
-						<h1>Ebook Guide</h1>
-						<h5>Eveniet vitae quos corporis, ipsum dolor sit amet, consectetur adipisicing elit. Facere magnam, in quis id quod,  dolor tempora, deserunt reprehenderit maiores commodi sint.</h5>
-						<h5><i class="fas fa-circle dot"></i>Dolor sit amet, consectetur elit. Inventore repudiandae eum earum explicabo ex a beatae vero, aspernatur.</h5>
+				<div class="ct1-2 wow bounceInRight">
+					<div class="bbct1-2">
+						<h3 class="dowthe">Download the</h3>
+						<h1 class="eBook">Ebook Guide</h1>
+						<p class="pell">Pellentesque sed odio sagittis, pulvinar dui eget, commodo metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at dignissim elit, a egestas risus.</p>
+						<h5><i class="fas fa-circle dot"></i>Dolor sit amet, consectetur elit. Inventore repudiandae eum earum explicabo ex a beatae.</h5>
 						<h5><i class="fas fa-circle dot"></i>Nisi et ipsum dolor sit amet,  adipisicing elit spernatur possimus.</h5>
 						<h5><i class="fas fa-circle dot"></i>Sit amet, consectetur adipisicing elit. Saepe autem, et quae ut aperiam architecto.</h5>
 						<h5><i class="fas fa-circle dot"></i>Earum at impedit atque jolem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
 						<div class="ct-ii1">Free trial 30 days</div>
 						<div class="ct-ii2">Demo Request</div>
+						<div class="clear"></div>
 					</div>
 				</div>
-				<div style="clear: both"></div>
+				<div class="clear"></div>
 			</div>
 			<div class="ct2">
-				<h3>Online business softwares</h3>
-				<h1>Try it Free</h1>
+				<h3 class="onbusiness wow bounceInLeft">Online business softwares</h3>
+				<h1 class="tryIt wow bounceInRight">Try it Free</h1>
 				<div class="ct2-1">
-					<div class="ct2-ii">
+					<div class="ct2-ii wow jackInTheBox one">
 						<div class="img4"></div>
 						<h4>Analysis Tool</h4>
-						<h5>Sit amet nisi ut lacus maximus consectetur adipisicing sunt architecto mollitia officiis sequi.</h5>
+						<h5>Mauris nec nisi ut lacus maximus facilisis. Aenean vel quam ut turpis imperdiet gravida.</h5>
 						<div class="ct2-ib2">Try it free</div>
 					</div>
-					<div class="ct2-ii">
+					<div class="ct2-ii wow jackInTheBox two">
 						<div class="img5"></div>
 						<h4>Analysis Tool</h4>
-						<h5>Sit amet nisi ut lacus maximus consectetur adipisicing sunt architecto mollitia officiis sequi.</h5>
+						<h5>Mauris nec nisi ut lacus maximus facilisis. Aenean vel quam ut turpis imperdiet gravida.</h5>
 						<div class="ct2-ib2">Try it free</div>
 					</div>
-					<div class="ct2-ii">
+					<div class="ct2-ii wow jackInTheBox three">
 						<div class="img6"></div>
 						<h4>Analysis Tool</h4>
-						<h5>Sit amet nisi ut lacus maximus consectetur adipisicing sunt architecto mollitia officiis sequi.</h5>
+						<h5>Mauris nec nisi ut lacus maximus facilisis. Aenean vel quam ut turpis imperdiet gravida.</h5>
 						<div class="ct2-ib2">Try it free</div>
 					</div>
-					<div class="ct2-ii2">
+					<div class="ct2-ii2 wow jackInTheBox four">
 						<div class="img7"></div>
 						<h4>Analysis Tool</h4>
-						<h5>Sit amet nisi ut lacus maximus consectetur adipisicing sunt architecto mollitia officiis sequi.</h5>
+						<h5>Mauris nec nisi ut lacus maximus facilisis. Aenean vel quam ut turpis imperdiet gravida.</h5>
 						<div class="ct2-ib2">Try it free</div>
 					</div>
-					<div style="clear: both;"></div>
+					<div class="clear"></div>
 				</div>
 			</div>
 			<div class="ct3">
-				<div class="ct3-1">
-					<div style="float: right; width: 80%">
-						<h1>Buy Now</h1>
-						<h3>Sub Headline Aenean sed turpis volutpat</h3>
-						<h4>Nam at viverra serm. Sed faucibus sed dui eget feugiat. Praesent felis velit, maxinum at dapibus semper, fermontum sogittis diam.</h4>
-						<hr>
+				<div class="ct3-1 wow rotateInDownLeft">
+					<div class="bbct3-1">
+						<h1 class="buy">Buy Now</h1>
+						<h3 class="subHea">Sub Headline Aenean sed turpis volutpat</h3>
+						<h4 class="namAt">Nam at viverra serm. Sed faucibus sed dui eget feugiat. Praesent felis velit, maxinum at dapibus semper, fermontum sogittis diam.</h4>
 						<div class="tagMon">
-							<div class="tag1">50$</div>
+							<div class="tag1">$50</div>
 							<div class="tag2">USD</div>
 						</div>
-						<div style="float: left">
-							<h2>Demo Version 2.0</h2>
-							<h4>60 Days Free Trail</h4>
+						<div class="floatLeft">
+							<h2 class="dv2">Demo Version 2.0</h2>
+							<h4 class="dayF">60 Days Free Trail</h4>
 						</div>
-						<div style="clear: both;"></div>
+						<div class="clear"></div>
 					</div>
-					<div style="clear: both;"></div>
+					<div class="clear"></div>
 				</div>
-				<div class="ct3-2">
-					
+				<div class="ct3-2 wow rotateInUpRight">
+					<div id="form">
+						<div id="titleForm">Fill the Form</div>
+						<div class="posRela"><input type="text" name="name" placeholder="Name"><i class="fas fa-user icf"></i></div>
+						<div class="posRela"><input type="text" name="email" placeholder="Email id"><i class="far fa-envelope icf"></i></div>
+						<div class="posRela"><input type="text" name="phone" placeholder="Phone"><i class="fas fa-mobile-alt icf leftMore"></i></div>
+						<div class="formI1">Download Now</div>
+						<h3 class="praesent">Praesent felis velit, maximus at dapibus semper, fermentum sagittis diam. <span class="pp1">Privacy Policy</span></h3>
+					</div>
 				</div>
-				<div style="clear: both"></div>
+				<div class="clear"></div>
+			</div>
+			<div class="ct4 wow zoomIn">
+				<h1 class="cusSay">Customers says</h1>
+				<h3 class="ft17">A e n e a n&nbsp&nbsp&nbspe u&nbsp&nbsp&nbspc u r s u s&nbsp&nbsp&nbsps a p i e n. Q u i s q u e&nbsp&nbsp&nbspe u&nbsp&nbsp&nbspu l t r i c i e s&nbsp&nbsp&nbspl i g u l a.</h3>
+				<div class="tagCus marRig4 wow slideInLeft">
+					<div class="imgCus">
+						<div class="wrapCus">
+							<div class="cuss cus1"></div>
+						</div>
+					</div>
+					<br><br><br>
+					<h3 class="proin">Proin felis massa, dapibus ut porta vitao, viverra nec dolor. Sed non aliquet nisl. Dones mollis, lorem ac vulputate feugiat, mangna lasuc millis justo, eu pretium ipsum arcu et velit.</h3>
+					<h2>Matthew</h2>
+					<h4>New York</h4>
+				</div>
+				<div class="tagCus wow slideInRight">
+					<div class="imgCus">
+						<div class="wrapCus">
+							<div class="cuss cus2"></div>
+						</div>
+					</div>
+					<br><br><br>
+					<h3 class="proin">Proin felis massa, dapibus ut porta vitao, viverra nec dolor. Sed non aliquet nisl. Dones mollis, lorem ac vulputate feugiat, mangna lasuc millis justo, eu pretium ipsum arcu et velit.</h3>
+					<h2>Matthew</h2>
+					<h4>New York</h4>
+				</div>
+				<div class="tagCus marRig4 wow slideInLeft">
+					<div class="imgCus">
+						<div class="wrapCus">
+							<div class="cuss cus3"></div>
+						</div>
+					</div>
+					<br><br><br>
+					<h3 class="proin">Proin felis massa, dapibus ut porta vitao, viverra nec dolor. Sed non aliquet nisl. Dones mollis, lorem ac vulputate feugiat, mangna lasuc millis justo, eu pretium ipsum arcu et velit.</h3>
+					<h2>Matthew</h2>
+					<h4>New York</h4>
+				</div>
+				<div class="tagCus wow slideInRight">
+					<div class="imgCus">
+						<div class="wrapCus">
+							<div class="cuss cus4"></div>
+						</div>
+					</div>
+					<br><br><br>
+					<h3 class="proin">Proin felis massa, dapibus ut porta vitao, viverra nec dolor. Sed non aliquet nisl. Dones mollis, lorem ac vulputate feugiat, mangna lasuc millis justo, eu pretium ipsum arcu et velit.</h3>
+					<h2>Matthew</h2>
+					<h4>New York</h4>
+				</div>
+				<div class="clear"></div>
 			</div>
 		</div>
+		<div id="footer" class="wow fadeIn">
+			<h3>Copyrights © 2018 <span class="ft1">Rn53themes.net</span> All rights reserved.</h3>
+		</div>
 	</div>
+	<a class="backToTop" href="javascript:void(0);" title="Top" style="display: none;"></a>
+	<script type="text/javascript" src="js/webDemo.js"></script>
 </body>
 </html>

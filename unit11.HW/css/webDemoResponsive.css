@@ -226,41 +226,41 @@
 }
 @media (max-width: 480px){
 	.ct2-ii, .ct2-ii2 {
-    width: 97%;
-    margin: 1%;
-}
-.ct2-1 {
-    margin: auto;
-    width: 86%;
-}
-.ct2-1 h5 {
-    line-height: 24px;
-    font-size: 13px;
-    padding: 0 7%;
-    margin-bottom: 20px;
-}
-.subHea {
-    margin: 13px 0;
-    font-size: 18px;
-}
-.onbusiness {
-    width: 80%;
-    font-size: 29px; 
-    margin: auto;
-    margin-top: 51px;
-}
-.tag1 {
-    width: 72px;
-    font-size: 28px;
-    padding: 6px 0;
-    font-weight: bold;
-    color: black;
-}
-.tag2 {
-    padding: 1px 0;
-    font-size: 17.5px;
-    font-weight: bold;
-    color: #fff;
-    background: #456a96;
-}
+		width: 97%;
+		margin: 1%;
+	}
+	.ct2-1 {
+		margin: auto;
+		width: 86%;
+	}
+	.ct2-1 h5 {
+		line-height: 24px;
+		font-size: 13px;
+		padding: 0 7%;
+		margin-bottom: 20px;
+	}
+	.subHea {
+		margin: 13px 0;
+		font-size: 18px;
+	}
+	.onbusiness {
+		width: 80%;
+		font-size: 29px; 
+		margin: auto;
+		margin-top: 51px;
+	}
+	.tag1 {
+		width: 72px;
+		font-size: 28px;
+		padding: 6px 0;
+		font-weight: bold;
+		color: black;
+	}
+	.tag2 {
+		padding: 1px 0;
+		font-size: 17.5px;
+		font-weight: bold;
+		color: #fff;
+		background: #456a96;
+	}
 }

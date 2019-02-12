@@ -22,12 +22,10 @@
 	float: right;
 	border: 1px solid #3c4f58;
 	border-radius: 20px;
-	padding-left: 5%;
-	padding-right: 5%;
-	font-size: 13px;
-	line-height: 25px;
-	font-size: 15px;
-	line-height: 32px;
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+	font-size: 14px;
+	line-height: 29px;
 	font-weight: 500;
 	animation-delay: .3s;
 }
@@ -44,7 +42,7 @@
 	clear: both;
 }
 *{
-	font-family: arial;
+	font-family: "Poppins",sans-serif;
 	color: #1a2a38;
 }
 .fas {
@@ -62,9 +60,9 @@
 	background-color: #0887ed;
 	color: #fff;
 	border-radius: 50px;
-	font-size: 18px;
-	line-height: 46px;
-	width: 212px;
+	font-size: 15px;
+	line-height: 44px;
+	width: 191px;
 	margin: auto;
 }
 .img2{
@@ -101,10 +99,11 @@ body{
 	float: left;
 }
 .dot{
+	font-size: 9px;
 	color: #40c4ff;
 	position: absolute;
-	top: 3px;
-	left: 4px;	
+	top: 6px;
+	left: 4px;
 }
 .ct-ii1{
 	cursor: pointer;
@@ -112,9 +111,9 @@ body{
 	background-color: #067edd;
 	color: #fff;
 	border-radius: 40px;
-	font-size: 17px;
+	font-size: 14px;
 	line-height: 46px;
-	width: 184px;
+	width: 173px;
 	text-align: center;
 	float: left;
 	margin-top: 20px;
@@ -124,11 +123,10 @@ body{
 	transition: all .3s ease;
 	cursor: pointer;
 	border: 1px solid #292f33;
-	color: #6c787b;
 	border-radius: 40px;
-	font-size: 17px;
-	line-height: 46px;
-	width: 170px;
+	font-size: 14px;
+	line-height: 45px;
+	width: 149px;
 	text-align: center;
 	float: left;
 	margin-left: 2%;
@@ -191,8 +189,8 @@ body{
 }
 .ct2-1 h5{
 	line-height: 24px;
-	font-size: 15px;
-	padding: 0 8%;
+	font-size: 14px;
+	padding: 0 7%;
 	margin-bottom: 20px;
 }
 .ct2-ii2{
@@ -242,7 +240,7 @@ body{
 	float: left;
 }
 #titleForm{
-	margin-bottom: 18px;	
+	margin-bottom: 5px;	
 	background: #273c56;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -270,7 +268,7 @@ body{
 	margin-right: 4%;
 }
 .imgCus{
-	    position: relative;
+	position: relative;
 	transition: all .5s ease;
 	margin: auto;
 	width: 74px;
@@ -281,23 +279,23 @@ body{
 	text-align: center;
 }
 .cuss {
-    background-size: 100% 100%;
-    height: 58px;
-    width: 58px;
-    margin: auto;
-    transition: all .5s ease;
+	background-size: 100% 100%;
+	height: 58px;
+	width: 58px;
+	margin: auto;
+	transition: all .5s ease;
 }
 .wrapCus{	
 	width: 58px;
-    height: 58px;
-    position: absolute;
-    top: 7.4px;
-    left: 8px;
-    border-radius: 29px;
-    background: #fff;
-    text-align: center;
-    overflow: hidden;
-    margin: auto;
+	height: 58px;
+	position: absolute;
+	top: 7.4px;
+	left: 8px;
+	border-radius: 29px;
+	background: #fff;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
 }	
 #footer{
 	width: 100%;
@@ -381,15 +379,15 @@ h1, h2, h3, h4, h5, h6{
 .out{
 	animation-delay: .3s;
 	font-size: 24pt;
-	padding-top: 120px;
+	padding-top: 98px;
 	color: #1a2a38;
 }
 .forB{
+	line-height: 80px;
 	animation-delay: .3s;
 	font-weight: 700;
 	font-size: 80px;
 	color: #1a2a38;
-	margin: 5px 0;
 }
 .mauris{
 	animation-delay: .3s;
@@ -413,13 +411,13 @@ h1, h2, h3, h4, h5, h6{
 }
 .pell{
 	line-height: 23px;
-	font-size: 16px;
+	font-size: 14px;
 	margin: 5px 0;
 	color: #1a2a38;
-	margin-bottom: 32px;
+	margin-bottom: 20px;
 }
 .ct1-2 h5{
-	font-size: 16px;
+	font-size: 14px;
 	margin: 5px 0;
 	padding-left: 28px;
 	position: relative;
@@ -427,44 +425,46 @@ h1, h2, h3, h4, h5, h6{
 	margin: 20px 0;
 }
 .onbusiness{
-	font-size: 35px;
+	font-size: 32px;
 	font-weight: 300;
 	color: #1a2a38;
 	margin-top: 80px;
 }
 .tryIt{
 	line-height: 45pt;
-	font-size: 60px;
+	font-size: 58px;
 	font-weight: 700;
 	color: #1a2a38;
 	margin: 10px 0;
 	margin-bottom: 50px;
 }
 .buy{
-	font-size: 70px;
+	font-size: 68px;
 	font-weight: bold;
 	margin-top: 70px;
+	line-height: 64px;
 }
 .subHea{
 	margin: 16px 0;
-	font-size: 25px;
+	font-size: 21px;
 }
 .namAt{
 	line-height: 23px;
-	font-size: 17px;
+	font-size: 15px;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 	color: #61686b;
 	border-bottom: 1px solid #d4eff3;
 }
 .dv2{
-	font-size: 25px;
+	font-size: 24px;
 	margin-top: 7px;
 	margin-left: 25px;
 	margin-bottom: 5px;
 	font-weight: 600;
 }
 .dayF{
+	font-size: 16px;
 	margin-left: 25px;
 }
 .praesent{
@@ -480,29 +480,28 @@ h1, h2, h3, h4, h5, h6{
 .cusSay{
 	font-size: 55px;
 	font-weight: bold;
-	margin-top: 70px;
-	margin-bottom: 10px;
+	margin-top: 56px;
 }
 .ft17{
-	font-size: 17px;
+	font-size: 16px;
 	margin-bottom: 20px;
 }
 .proin{
 	text-align: center;
 	width: 86%;
 	margin: auto;
-	font-size: 17px;
+	font-size: 15px;
 	color: #495e71;
 	line-height: 28px;
-	margin-top: 13px;
+	margin-top: 53px;
 	margin-bottom: 18px;
 }
 .tagCus>h2{
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: bold;
 }
 .tagCus>h4{
-	font-size: 16px;
+	font-size: 15px;
 	color: #495e71;
 	margin: 4px 0;
 	margin-bottom: 30px;

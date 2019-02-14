@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	.error{
+		color: red;	
+	}
+</style>
+</head>
+<body>
+	<form action="/" method="post" id="login">
+		<input type="email" name="email" placeholder="Email"><br>
+		<input type="password" name="password" placeholder="Password"><br>
+		<input type="file" name="image"><br>
+		<button type="submit">Submit</button>
+	</form>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>	
+	<script type="text/javascript">
+		$.validator.addMethod('filesize', function (value, element, param) {
+			return this.optional(element) || (element.files[0].size <= param)
+		}, 'File size must be less than 1MB');
+
+		$('#login').validate({
+			rules:{
+				email:{
+					required: true,
+					email:true,
+				},
+				password: {
+					required: true,
+					minlength: 8,
+				},
+				image: {
+					required: true,
+					extension: "jpg|png|iso",
+					filesize: 1048576 // don vi tinh theo B (1048576 B = 1MB)
+				}
+			},
+			messages:{
+				
+			}
+		})
+	</script>
+</body>
+</html>

@@ -9,3 +9,7 @@ for (var i = 0; i < section.length; i++) {
 		this.nextElementSibling.classList.add("active");
 	})
 }
+
+
+
+

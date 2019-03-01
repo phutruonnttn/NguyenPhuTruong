@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('body').scrollspy({
 		target: '#mainNav',
 		offset: 75,
@@ -191,4 +192,5 @@ $(document).ready(function(){
 			button: "OK",
 		});
 	}
+	new WOW().init();
 })

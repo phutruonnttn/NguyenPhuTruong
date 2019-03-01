@@ -201,9 +201,10 @@ h1, h2, h3, h4, h5, h6 {
 	border-right-width: 3.75pt;
 	border-bottom-width: 3.75pt;
 	border-left-width: 3.75pt;
-	top: 40%;
+	/* top: 40%;
 	left: 46%;
-	position: absolute;
+	position: absolute; */
+	margin: auto;
 }
 @keyframes load{
 	0% {transform: rotate(0deg);}
